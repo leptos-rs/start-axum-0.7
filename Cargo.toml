@@ -18,7 +18,6 @@ tower = { version = "0.4", optional = true }
 tower-http = { version = "0.5", features = ["fs"], optional = true }
 wasm-bindgen = "=0.2.93"
 thiserror = "1"
-tracing = { version = "0.1", optional = true }
 http = "1"
 
 [features]
@@ -32,7 +31,6 @@ ssr = [
     "leptos/ssr",
     "leptos_meta/ssr",
     "leptos_router/ssr",
-    "dep:tracing",
 ]
 
 # Defines a size-optimized profile for the WASM bundle in release mode
